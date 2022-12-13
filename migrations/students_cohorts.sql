@@ -15,3 +15,10 @@ CREATE TABLE students (
   end_date DATE,
   cohort_id INTEGER REFERENCES cohorts(id) ON DELETE CASCADE
 );
+
+
+-- COHORTS
+-- id, name, start_date, end_date
+
+-- STUDENTS
+-- id, name, email, phone, github, start_date, end_date, cohort_id

@@ -14,3 +14,9 @@ CREATE TABLE assignment_submissions (
   duration INTEGER,
   submission_date DATE
 );
+
+-- ASSIGNMENT_SUBMISSIONS 
+-- id, assignment_id, student_id, submission_date, duration
+
+--ASSIGNMENTS
+-- id, name, content, duration, day, chapter
